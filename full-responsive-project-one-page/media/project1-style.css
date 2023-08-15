@@ -1,0 +1,250 @@
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+nav{
+    padding-top: 20px !important;
+    background-color:#252b489e !important;
+}
+header nav{
+    
+}
+.collapse{
+    justify-content: space-around;
+}
+.nav-item{
+    padding-right: 7.5rem !important;
+}
+.nav-br{
+   color: white;
+}
+.nav-br:hover{
+    text-decoration: none;
+    color: white;
+}
+.son-item{
+    padding-right: 1rem !important;
+}
+
+header{
+    height: 100vh;
+    background-image: url(./images1/header.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text-div{
+    display: table;
+    width: 100%;
+    height: 70vh;
+}
+.text{
+    color: white;
+    font-size: 45px;
+text-align: center;
+display: table-cell;
+vertical-align: middle;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sec-3{
+    align-items: center;
+}
+
+.about-title,.team-title, .project-title{
+    font-size: 35px;
+    margin-bottom: 0rem;
+    text-align: center;
+    color: #F2D8D8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-title, .project-title{
+    color: #252B48;
+}
+.underline{
+    height: 3px;
+    width: 50px;
+    margin: 0px auto 50px;
+    background-color: blueviolet;
+}
+.img-col>img{
+    width: 100%;
+    padding: 5px 5px 0px;
+}
+
+.detail-about{
+    font-size: 14px;
+font-family: 'Courier New', Courier, monospace;
+padding-top: 10px;
+}
+.sec-4{
+   padding-top: 3.5rem;
+   padding-bottom: 3.5rem;
+}
+.sec-4>.card-body{
+    padding: 0.5rem !important;
+}
+.sec-4 .card{
+   background-color: #ffffff64 !important;
+   margin: 0.5rem;
+}
+
+.team-card, .sec-7 .card{
+    border-radius: 0%;
+}
+.team-name{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 0rem;
+    font-family: math;
+}
+.team-position{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.sec-6{
+    padding: 20px;
+    text-align: center;
+}
+.sec-7 .card{
+    background-color: #ffffff91;
+}
+
+.text-main{
+    font-size: 17px;
+    color: white;
+   font-style: italic;
+}
+.text-name{
+    font-family: math;
+    color: white;
+    font-size: 1.5rem;
+}
+#service-section{
+    position: relative;
+    height: 90vh;
+}
+.service-img{
+    position: absolute; 
+    bottom: 0px;
+}
+.service-text{
+    float: right;
+    text-align: center;
+   
+}
+.service-row{
+    height: 60vh; 
+    align-items: center;
+    justify-content: center;
+}
+#galery-section .card,img{
+border: 0px;
+border-radius: 0% !important;
+}
+#galery-section .card{
+margin: 20px 5px;
+padding: 5px;
+overflow: hidden;
+}
+#galery-section .card-body{
+    padding: 1.5rem;
+}
+#galery-section img{
+   transition: all .5s ;
+    overflow: hidden;
+}
+
+#galery-section img:hover{
+    transform: scale(1.2);
+}
+.carousel-caption{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact{
+    padding: 0px 35px;
+    text-align: center;
+}
+.contact-text{
+    float: right;
+}
+.contact-icon{
+    font-size: 30px;
+    padding: 10px;
+    color: blueviolet;
+    border: 1px solid #252B48;
+    transition: 1s ;
+    border-radius: 20%;
+}
+.contact:hover .contact-icon{
+    color: white;
+    background-color: blueviolet;
+}
+#contact-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#contact-row{
+    align-items: center;
+}
+textarea{
+    width: 100%;
+}
+.form-box{
+    border: 2px solid #252B48;
+    padding: 20px;
+}
+.form-box input, textarea{
+    padding: 3px;
+    border: 0.5px solid #252B48;
+    background-color:rgba(255, 255, 255, 0.401);
+}
+.form-input-div input{
+    margin: 15px;
+    width: 90%;
+}
+#text-area-div{
+    text-align: center;
+}
+#send{
+   margin-top: 5px;
+    background-color: white;
+    color: rgb(226, 43, 131);
+    padding: 5px 15px;
+   transition: .5s;
+}
+#send:hover{
+    background-color: rgb(226, 43, 131);
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    nav {
+        padding-top: 5px !important;
+        background-color: rgba(169, 169, 180, 0.848) !important;
+    }
+    .navbar-brand{
+        width: 0px;
+        height: 0px;
+        visibility: hidden !important;
+    }
+    .service-img img{
+        opacity: .2;
+    }
+   
+  }
+  @media only screen and (max-width: 768px){
+    .contact-text{
+       float: none;
+    }
+  }
